@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixar meu Jogo</title>
+    <style>
+        /* Reset de estilos para garantir que fique limpo em qualquer aparelho */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a; /* Fundo escuro moderno e elegante */
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container principal centralizado */
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            background-color: #1e293b; /* Fundo do card ligeiramente mais claro */
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #38bdf8; /* Azul chamativo para o título */
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #cbd5e1;
+            margin-bottom: 35px;
+        }
+
+        /* O botão super chamativo */
+        .btn-download {
+            display: inline-block;
+            background: linear-gradient(135deg, #22c55e, #16a34a); /* Degradê verde vibrante */
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 20px 40px;
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(34, 197, 94, 0.4);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        /* Efeito de foco/passar o mouse no botão */
+        .btn-download:hover {
+            transform: translateY(-3px); /* Ele levanta levemente */
+            box-shadow: 0 12px 25px rgba(34, 197, 94, 0.6); /* Brilha mais */
+            background: linear-gradient(135deg, #4ade80, #22c55e);
+        }
+
+        .btn-download:active {
+            transform: translateY(1px);
+        }
+
+        /* Pequeno aviso abaixo do botão */
+        .aviso {
+            margin-top: 15px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título do seu Jogo -->
+        <h1>Nome do Seu Jogo</h1>
+        
+        <!-- Explicação direta e curta -->
+        <p>
+            Bem-vindo à página de download oficial! Este é um jogo eletrônico mobile repleto de ação e desafios. 
+            Experimente a versão mais recente agora mesmo no seu dispositivo Android de forma totalmente segura e gratuita.
+        </p>
+
+        <!-- Botão gigante de Download -->
+        <!-- IMPORTANTE: Substitua o "seu-jogo.apk" pelo nome exato do arquivo que você vai colocar no GitHub -->
+        <a href="seu-jogo.apk" download class="btn-download">
+            📥 BAIXAR APK AGORA
+        </a>
+
+        <p class="aviso">Versão mais recente estável. Formato: .APK (Android)</p>
+    </div>
+
+</body>
+</html>
